@@ -1,0 +1,19 @@
+.card {
+    font-size: 14px;
+    padding: 5px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    padding: 2px;
+}
