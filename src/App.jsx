@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { fetchContacts } from "./redux/contactsOps.js";
 import ContactForm from "./components/ContactForm/ContactForm.jsx";
+import SearchBox from "./components/SearchBox/SearchBox.jsx";
 
 function App() {
   const dispatch = useDispatch();
@@ -14,6 +15,7 @@ function App() {
   return (
     <div>
       <ContactForm />
+      <SearchBox />
       <ContactList />
     </div>
   );
